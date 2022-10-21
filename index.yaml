@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  daps-reg-service:
+  - apiVersion: v2
+    appVersion: 1.0.4
+    created: "2022-10-21T10:26:12.202404472Z"
+    description: A Helm chart for Kubernetes
+    digest: fff4a37dd531f8b94d9fe9f4bd45b43b9b490f991b4389def385cf8fd4365e97
+    name: daps-reg-service
+    type: application
+    urls:
+    - https://github.com/catenax-ng/product-daps-registration-service/releases/download/daps-reg-service-1.0.4/daps-reg-service-1.0.4.tgz
+    version: 1.0.4
+generated: "2022-10-21T10:26:12.202416072Z"
