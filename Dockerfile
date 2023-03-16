@@ -25,4 +25,7 @@ RUN adduser -DH drs && addgroup drs drs
 USER drs
 
 ENTRYPOINT ["java", "-cp", "app:app/lib/*", "org.eclipse.tractusx.dapsreg.DapsregApplication"]
+
 EXPOSE 8080
+
+HEALTHCHECK CMD curl --fail http://localhost:8080 || exit 1   
